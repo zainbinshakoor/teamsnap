@@ -1,0 +1,115 @@
+.background {
+  background-image: url("../../assets/background.svg");
+  background-size: cover;
+}
+
+.bgColor {
+  background-color: #7c70e6;
+}
+.animation {
+  margin-top: 20em;
+}
+.landLogo {
+  margin-top: 100px;
+  margin-left: 400px;
+}
+.img {
+  width: 500px;
+  height: 500px;
+}
+.studyImg {
+  margin-left: 20px;
+  width: 300px;
+  height: 300px;
+}
+.studyContainer {
+  background-color: #2596be;
+}
+.content {
+  color: white;
+  font-weight: 400;
+  line-height: 1.65;
+  text-align: center;
+  margin-left: 120px;
+}
+.studySvg {
+  margin-left: 120px;
+}
+.title {
+  margin-top: 3em;
+}
+.blogs {
+  width: 100%;
+  height: 50vh;
+}
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  max-width: 300px;
+  margin: auto;
+  text-align: center;
+}
+
+.title {
+  color: grey;
+  font-size: 18px;
+}
+
+button {
+  border: none;
+  outline: 0;
+  display: inline-block;
+  padding: 8px;
+  color: white;
+  background-color: #000;
+  text-align: center;
+  cursor: pointer;
+  width: 100%;
+  font-size: 18px;
+}
+
+a {
+  text-decoration: none;
+  font-size: 22px;
+  color: black;
+}
+
+button:hover,
+a:hover {
+  opacity: 0.7;
+}
+.bgContent{
+  background-color: #2596be;
+}
+.bgImg{
+  background-color: #7c70e6;
+}
+.p-locate{
+  padding: 10em;
+}
+.location{
+  margin-top: 50px;
+text-align: center;
+}
+@media screen and (max-width: 776px) {
+  .animation {
+    margin-top: 10em;
+  }
+  .landLogo {
+    margin: 10px;
+  }
+  .img {
+    width: 300px;
+    height: 300px;
+  }
+  .studySvg {
+    margin-left: 0px;
+  }
+  .content {
+    color: white;
+    text-align: center;
+  }
+  .studyImg {
+    width: 200px;
+    height: 200px;
+  }
+}
